@@ -1,41 +1,41 @@
 import React from 'react'
 
-import TinySlider from 'tiny-slider-react';
+// import TinySlider from 'tiny-slider-react';
 
 import { feedback } from '../data/data';
 
 export default function UserFeedBack2() {
-    let settings = {
-        container: '.tiny-three-item',
-        controls: false,
-        mouseDrag: true,
-        loop: true,
-        rewind: true,
-        autoplay: true,
-        autoplayButtonOutput: false,
-        autoplayTimeout: 3000,
-        navPosition: "bottom",
-        speed: 400,
-        gutter: 12,
-        responsive: {
-            992: {
-                items: 3
-            },
+    // let settings = {
+    //     container: '.tiny-three-item',
+    //     controls: false,
+    //     mouseDrag: true,
+    //     loop: true,
+    //     rewind: true,
+    //     autoplay: true,
+    //     autoplayButtonOutput: false,
+    //     autoplayTimeout: 3000,
+    //     navPosition: "bottom",
+    //     speed: 400,
+    //     gutter: 12,
+    //     responsive: {
+    //         992: {
+    //             items: 3
+    //         },
     
-            767: {
-                items: 2
-            },
+    //         767: {
+    //             items: 2
+    //         },
     
-            320: {
-                items: 1
-            },
-        },
-    }
+    //         320: {
+    //             items: 1
+    //         },
+    //     },
+    // }
     return (
         <div>
             <div className="grid grid-cols-1 mt-8">
                 <div className="tiny-three-item">
-                    <TinySlider settings={settings}>
+                    {/* <TinySlider settings={settings}> */}
                         {feedback.map((item, index) => (
 
                             <div className="tiny-slide text-center" key={index}>
@@ -60,7 +60,7 @@ export default function UserFeedBack2() {
                                 </div>
                             </div>
                         ))}
-                    </TinySlider>
+                    {/* </TinySlider> */}
                 </div>
             </div>
         </div>
