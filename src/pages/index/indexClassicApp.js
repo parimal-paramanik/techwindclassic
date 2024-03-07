@@ -110,8 +110,8 @@ Please connect with us, we would love to collaborate with you in building your n
                                 <div className="flex items-center">
                                     <img src={imageP} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
                                     <div className="flex-1">
-                                        <h6 className="text-lg font-semibold">Cristina</h6>
-                                        <p className="text-slate-400">Manager</p>
+                                        <h6 className="text-lg font-semibold">Abhishek</h6>
+                                        <p className="text-slate-400">CEO</p>
                                     </div>
                                 </div>
                             </div>
@@ -266,10 +266,10 @@ Please connect with us, we would love to collaborate with you in building your n
 
                             <div className="absolute flex justify-between items-center bottom-16 md:start-10 -start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-56 m-3">
                                 <div className="flex items-center">
-                                    <img src={image7} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
+                                    <img src={imageP} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
                                     <div className="flex-1">
-                                        <h6 className="text-lg font-semibold">Advin</h6>
-                                        <p className="text-slate-400">Owner & CEO</p>
+                                        <h6 className="text-lg font-semibold">Abhishek</h6>
+                                        <p className="text-slate-400">CEO</p>
                                     </div>
                                 </div>
                             </div>
