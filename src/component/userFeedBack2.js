@@ -60,7 +60,7 @@ export default function UserFeedBack2() {
           infinite={true}
           ssr={true}
           keyBoardControl={true}
-          showDots={false}
+          showDots={true}
           slidesToSlide={1}
           containerClass="carousel-container"
           dotListClass="custom-dot-list-style"
