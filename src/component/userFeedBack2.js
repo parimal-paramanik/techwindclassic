@@ -31,9 +31,10 @@ export default function UserFeedBack2() {
     //         },
     //     },
     // }
+  
     return (
         <div>
-            <div className="grid grid-cols-1 mt-8">
+            <div className="grid grid-rows-1 mt-8">
                 <div className="tiny-three-item">
                     {/* <TinySlider settings={settings}> */}
                         {feedback.map((item, index) => (

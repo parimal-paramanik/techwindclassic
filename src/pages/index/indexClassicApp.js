@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
-import app from '../../assets/images/app/app.png';
+// import app from '../../assets/images/app/app.png';
 import playstore from '../../assets/images/app/playstore.png';
 import classic02 from '../../assets/images/app/classic02.png';
-import imageP from '../../assets/images/client/05.jpg';
+import imageP from '../../assets/images/client/01.jpg';
 import avatar from '../../assets/images/avatar.jpg';
 import notification from '../../assets/images/notification.jpg';
 import ab02 from '../../assets/images/about/ab02.jpg';
@@ -60,12 +60,18 @@ export default function IndexClassicApp() {
                                 <li className="inline"><i className="mdi mdi-star"></i></li>
                                 <li className="inline"><i className="mdi mdi-star"></i></li>
                             </ul>
-                            <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white">Making <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-indigo-600/20 relative text-indigo-600">everybody</span> <br /> feel valued at work</h4>
-                            <p className="text-slate-400 text-lg max-w-xl">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
+                            <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white">Gen-AI 
+ <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-indigo-600/20 relative text-indigo-600">Automation</span> <br /> achieved with brilliance</h4>
+                            <p className="text-slate-400 text-lg max-w-xl">At Prodigal AI, we help companies take Gen-AI and Deep Learning research into production. With a pedigree in research for custom use cases, we have worked for diverse industires like Retail Stores, Trip Advisors, Story Books, Sports & Fitness.
+
+Our core research in Gen AI LLMs and edge deployments via quantization are the key standouts.
+
+Please connect with us, we would love to collaborate with you in building your next real world AI solution.</p>
 
                             <div className="mt-6">
-                                <Link to="#"><img src={app} className="inline-block m-1" alt="" /></Link>
-                                <Link to="#"><img src={playstore} className="inline-block m-1" alt="" /></Link>
+                            <button type="submit" id="submitsubscribe" name="send" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Get in Touch</button>
+                               
+                                {/* <Link to="#"><img src={playstore} className="inline-block m-1" alt="" /></Link> */}
                             </div>
                         </div>
 
@@ -163,14 +169,14 @@ export default function IndexClassicApp() {
                         </div>
 
                         <div className="lg:ms-8">
-                            <h4 className="mb-4 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Ready to kick off <br /> your startup journey?</h4>
-                            <p className="text-slate-400 mb-6">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
+                            <h4 className="mb-4 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Ready to Turbo Charge <br /> your Business with AI?</h4>
+                            <p className="text-slate-400 mb-6">AI & Automation are at the heart of any business use case, get in touch with us and let's embark on this journey of scaling your business together. We offer a diverse skill set as AI consultants varying from research papers to custom LLMs</p>
 
                             <div className="pt-6 flex items-center border-t dark:border-gray-700">
                                 <img src={imageP} className="h-20 w-20 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
                                 <div className="flex-1">
-                                    <h6 className="text-lg text-slate-400 italic font-semibold">" Human perception is tuned to recognize certain patterns and repetitions in texts. "</h6>
-                                    <p className="font-semibold">Owner & CEO</p>
+                                    <h6 className="text-lg text-slate-400 italic font-semibold">"The finess and depth Prodigal AI presented with their research was phenomenal."</h6>
+                                    <p className="font-semibold">Abhishek Chopra, CEO, TechVZero</p>
                                 </div>
                             </div>
                         </div>
