@@ -51,12 +51,12 @@ import cause04 from '../assets/images/charity/cause04.jpg';
 import cause05 from '../assets/images/charity/cause05.jpg';
 import cause06 from '../assets/images/charity/cause06.jpg';
 
-import logo1 from '../assets/images/client/9.png';
+import logo1 from '../assets/images/client/9.jpg';
 import logo2 from '../assets/images/client/10.png';
 import logo3 from '../assets/images/client/11.png';
 import logo4 from '../assets/images/client/12.png';
-import logo5 from '../assets/images/client/13.png';
-import logo6 from '../assets/images/client/14.png';
+import logo5 from '../assets/images/client/13.jpeg';
+
 
 import construction1 from '../assets/images/construction/1.jpg';
 import construction2 from '../assets/images/construction/2.jpg';
@@ -752,7 +752,7 @@ export const causesData = [
         Progress:"60%"
     },
 ]
-export const partnerImage = [logo1, logo2, logo3,logo4,logo5,logo6]
+export const partnerImage = [logo1, logo2, logo3,logo4,logo5]
 
 export const saasFeatures = [
     {

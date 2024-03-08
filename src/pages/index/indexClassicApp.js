@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 // import app from '../../assets/images/app/app.png';
 import playstore from '../../assets/images/app/playstore.png';
-import classic02 from '../../assets/images/app/classic02.png';
+import classic02 from '../../assets/images/app/classic02.jpeg';
 import imageP from '../../assets/images/client/01.jpg';
 import avatar from '../../assets/images/avatar.jpg';
 import notification from '../../assets/images/notification.jpg';
@@ -52,7 +52,7 @@ export default function IndexClassicApp() {
             <section className="relative overflow-hidden md:pt-44 pt-36 md:pb-24 pb-16">
                 <div className="container relative">
                     <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-8 gap-[30px] relative">
-                        <div className="md:me-6">
+                        <div className="md:me-6 ">
                             <ul className="list-none mb-0 text-amber-400 text-xl space-x-1">
                                 <li className="inline"><i className="mdi mdi-star"></i></li>
                                 <li className="inline"><i className="mdi mdi-star"></i></li>
@@ -64,15 +64,14 @@ export default function IndexClassicApp() {
  <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-indigo-600/20 relative text-indigo-600">Automation</span> <br /> achieved with brilliance</h4>
                             <p className="text-slate-400 text-lg max-w-xl">At Prodigal AI, we help companies take Gen-AI and Deep Learning research into production. With a pedigree in research for custom use cases, we have worked for diverse industires like Retail Stores, Trip Advisors, Story Books, Sports & Fitness.
 
-Our core research in Gen AI LLMs and edge deployments via quantization are the key standouts.
+                            Our core research in Gen AI LLMs and edge deployments via quantization are the key standouts.
 
-Please connect with us, we would love to collaborate with you in building your next real world AI solution.</p>
+                                Please connect with us, we would love to collaborate with you in building your next real world AI solution.</p>
 
-                            <div className="mt-6">
-                            <button type="submit" id="submitsubscribe" name="send" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Get in Touch</button>
-                               
-                                {/* <Link to="#"><img src={playstore} className="inline-block m-1" alt="" /></Link> */}
-                            </div>
+                                <div className="mt-6">
+                                    <Link to="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Follow us on Linkedin</Link>
+                                    <Link to="" className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white m-1 lightbox"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link><span className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Get in Touch</span>
+                                </div>
                         </div>
 
                         <div className="relative">
@@ -87,16 +86,17 @@ Please connect with us, we would love to collaborate with you in building your n
                                         <Icon.Monitor className="h-6 w-6"></Icon.Monitor>
                                     </div>
                                     <div className="flex-1">
-                                        <h6 className="text-slate-400">Visitor</h6>
-                                        <p className="text-xl font-bold"><CountUp className="counter-value" start={2100} end={4589} /></p>
+                                        <h6 className="text-lg font-semibold">Systems of</h6>
+                                        <h6 className="text-lg font-semibold">Gen-AI</h6>
+                                        {/* <p className="text-xl font-bold"><CountUp className="counter-value" start={2100} end={4589} /></p> */}
                                     </div>
                                 </div>
 
-                                <span className="text-red-600 inline-flex items-center"><BiTrendingDown className="me-1"/> 0.5%</span>
+                                {/* <span className="text-red-600 inline-flex items-center"><BiTrendingDown className="me-1"/> 0.5%</span> */}
                             </div>
 
                             <div className="absolute bottom-1/2 translate-y-1/2 lg:-end-7 -end-5 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-48 m-3">
-                                <h5 className="text-lg font-semibold mb-3">Manage Software</h5>
+                                <h5 className="text-lg font-semibold mb-3">Automation </h5>
                                 <div className="flex justify-between mt-3 mb-2">
                                     <span className="text-slate-400">Progress</span>
                                     <span className="text-slate-400">84%</span>
@@ -106,12 +106,12 @@ Please connect with us, we would love to collaborate with you in building your n
                                 </div>
                             </div>
 
-                            <div className="absolute flex justify-between items-center bottom-16 md:start-10 -start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-44 m-3">
+                            <div className="absolute flex justify-between items-center bottom-16 md:start-10 -start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-[20] m-3">
                                 <div className="flex items-center">
                                     <img src={imageP} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
                                     <div className="flex-1">
-                                        <h6 className="text-lg font-semibold">Abhishek</h6>
-                                        <p className="text-slate-400">CEO</p>
+                                        <h6 className="text-lg font-semibold">Digital Avatar</h6>
+                                        <p className="text-slate-400">Futuristic</p>
                                     </div>
                                 </div>
                             </div>
@@ -124,12 +124,12 @@ Please connect with us, we would love to collaborate with you in building your n
                     </div>
                 </div>
 
-                <div className="container relative md:mt-24 mt-16">
-                    <div className="grid md:grid-cols-6 grid-cols-2 justify-center gap-[30px]">
+                <div className="container relative md:mt-24 mt-16 ml-[50px]  ">
+                    <div className="grid md:grid-cols-5 grid-cols-2 justify-center gap-[30px]  ml-[50px] ">
                         {partnerImage.map((item,index)=>{
                             return(
                                 <div className="mx-auto py-4" key={index}>
-                                    <img src={item} className="h-20" alt="" />
+                                    <img src={item} className="h-16" alt="" />
                                 </div>
                             )
                         })}
@@ -143,13 +143,13 @@ Please connect with us, we would love to collaborate with you in building your n
                                 <img src={avatar} className="mx-auto md:max-w-xs lg:max-w-sm rounded-lg shadow-md dark:shadow-gray-800" alt="" />
 
                                 <div className="absolute top-4 md:end-14 -end-2 text-center">
-                                    <Link to="#" data-type="youtube" onClick={() => setOpen(true)} data-id="S_CGed6E610"
+                                    <Link to="#" data-type="youtube" onClick={() => setOpen(true)} data-id="g34AhP_L-cE"
                                         className="lightbox h-20 w-20 rounded-full shadow-md dark:shadow-gyay-700 inline-flex items-center justify-center text-white bg-indigo-600">
                                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                                     </Link>
                                 </div>
                             </div>
-                            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="S_CGed6E610" onClose={() => setOpen(false)} />
+                            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="g34AhP_L-cE" onClose={() => setOpen(false)} />
 
                             <div className="overflow-hidden absolute md:h-[500px] h-[400px] md:w-[500px] w-[400px] bg-gradient-to-tr to-indigo-600/20 via-indigo-600/70 from-indigo-600 bottom-1/2 translate-y-1/2 md:end-0 end-1/2 md:translate-x-0 translate-x-1/2 -z-1 shadow-md shadow-indigo-600/10 rounded-full"></div>
 
