@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 // import app from '../../assets/images/app/app.png';
-import playstore from '../../assets/images/app/playstore.png';
+// import playstore from '../../assets/images/app/playstore.png';
 import classic02 from '../../assets/images/app/classic02.jpeg';
 import imageP from '../../assets/images/client/01.jpg';
 import avatar from '../../assets/images/avatar1.jpeg';
@@ -11,7 +11,7 @@ import ab02 from '../../assets/images/about/ab02.jpg';
 import ab01 from '../../assets/images/about/ab01.jpg';
 import sales_chart from '../../assets/images/sales-chart.jpg';
 import classic04 from '../../assets/images/app/classic04.png';
-import image7 from '../../assets/images/client/01.jpg';
+// import image7 from '../../assets/images/client/01.jpg';
 
 import Navbar from '../../component/Navbar/navbar'
 import UserFeedBack2 from '../../component/userFeedBack2';
@@ -63,7 +63,7 @@ export default function IndexClassicApp() {
                             </ul>
                             <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white">Gen-AI 
  <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-indigo-600/20 relative text-indigo-600">Automation</span> <br /> achieved with brilliance</h4>
-                            <p className="text-slate-400 text-lg max-w-xl">At Prodigal AI, we help companies take Gen-AI and Deep Learning research into production. With a pedigree in research for custom use cases, we have worked for diverse industires like Retail Stores, Trip Advisors, Story Books, Sports & Fitness.
+                            <p className="text-slate-500 text-lg max-w-xl">At Prodigal AI, we help companies take Gen-AI and Deep Learning research into production. With a pedigree in research for custom use cases, we have worked for diverse industires like Retail Stores, Trip Advisors, Story Books, Sports & Fitness.
 
                             Our core research in Gen AI LLMs and edge deployments via quantization are the key standouts.
 
@@ -104,8 +104,8 @@ export default function IndexClassicApp() {
                             <div className="absolute bottom-1/2 translate-y-1/2 lg:-end-7 -end-5 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-48 m-3">
                                 <h5 className="text-lg font-semibold mb-3">Automation </h5>
                                 <div className="flex justify-between mt-3 mb-2">
-                                    <span className="text-slate-400">Progress</span>
-                                    <span className="text-slate-400">84%</span>
+                                    <span className="text-slate-500">Progress</span>
+                                    <span className="text-slate-500">84%</span>
                                 </div>
                                 <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-[6px]">
                                     <div className="bg-indigo-600 h-[6px] rounded-full" style={{ "width": "84%" }}></div>
@@ -117,7 +117,7 @@ export default function IndexClassicApp() {
                                     <img src={imageP} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
                                     <div className="flex-1">
                                         <h6 className="text-lg font-semibold">Digital Avatar</h6>
-                                        <p className="text-slate-400">Futuristic</p>
+                                        <p className="text-slate-500">Futuristic</p>
                                     </div>
                                 </div>
                             </div>
@@ -130,12 +130,12 @@ export default function IndexClassicApp() {
                     </div>
                 </div>
 
-                <div className="container relative md:mt-24 mt-16 ml-[50px]  ">
-                    <div className="grid md:grid-cols-5 grid-cols-2 justify-center gap-[30px]  ml-[50px] ">
+                <div className="container relative md:mt-24 mt-16 ml-[50px] w-full  ">
+                    <div className="grid md:grid-cols-5 grid-cols-2 justify-between gap-36 w-full  ">
                         {partnerImage.map((item,index)=>{
                             return(
-                                <div className="mx-auto pb-5 " key={index}>
-                                    <img src={item} className="h-12" alt="" />
+                                <div className="mx-auto pb-2 pt-5" key={index}>
+                                    <img src={item} className="h-12 w-[2px]" alt="" />
                                 </div>
                             )
                         })}
@@ -165,7 +165,7 @@ export default function IndexClassicApp() {
                                         <Icon.DollarSign className="h-6 w-6"></Icon.DollarSign>
                                     </div>
                                     <div className="flex-1">
-                                        <h6 className="text-slate-400">Revenue</h6>
+                                        <h6 className="text-slate-500">Revenue</h6>
                                         <p className="text-xl font-bold">$<CountUp className="counter-value" start={39548} end={45485} /></p>
                                     </div>
                                 </div>
@@ -176,12 +176,12 @@ export default function IndexClassicApp() {
 
                         <div className="lg:ms-8">
                             <h4 className="mb-4 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Ready to Turbo Charge <br /> your Business with AI?</h4>
-                            <p className="text-slate-400 mb-6">AI & Automation are at the heart of any business use case, get in touch with us and let's embark on this journey of scaling your business together. We offer a diverse skill set as AI consultants varying from research papers to custom LLMs</p>
+                            <p className="text-slate-500 mb-6">AI & Automation are at the heart of any business use case, get in touch with us and let's embark on this journey of scaling your business together. We offer a diverse skill set as AI consultants varying from research papers to custom LLMs</p>
 
                             <div className="pt-6 flex items-center border-t dark:border-gray-700">
                                 <img src={imageP} className="h-20 w-20 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
                                 <div className="flex-1">
-                                    <h6 className="text-lg text-slate-400 italic font-semibold">"The finess and depth Prodigal AI presented with their research was phenomenal."</h6>
+                                    <h6 className="text-lg text-slate-500 italic font-semibold">"The finess and depth Prodigal AI presented with their research was phenomenal."</h6>
                                     <p className="font-semibold">Abhishek Chopra, CEO, TechVZero</p>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@ export default function IndexClassicApp() {
                                         {activeIndex === index && (
                                             <div>
                                                 <div className="p-5">
-                                                    <p className="text-slate-400 dark:text-gray-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                                    <p className="text-slate-500 dark:text-gray-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                                                 </div>
                                             </div>
                                         )}
@@ -263,7 +263,7 @@ export default function IndexClassicApp() {
                                             <li className="inline"><i className="mdi mdi-star"></i></li>
                                             <li className="inline"><i className="mdi mdi-star"></i></li>
                                         </ul>
-                                        <span className="text-xs"><span className="font-semibold">950</span> <span className="text-slate-400">Ratings</span></span>
+                                        <span className="text-xs"><span className="font-semibold">950</span> <span className="text-slate-500">Ratings</span></span>
                                     </div>
 
                                     <span className="font-bold ms-3">Trusted by over <span className="text-indigo-600">50000</span> members</span>
@@ -275,7 +275,7 @@ export default function IndexClassicApp() {
                                     <img src={imageP} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
                                     <div className="flex-1">
                                         <h6 className="text-lg font-semibold">Abhishek</h6>
-                                        <p className="text-slate-400">CEO</p>
+                                        <p className="text-slate-500">CEO</p>
                                     </div>
                                 </div>
                             </div>
@@ -283,8 +283,8 @@ export default function IndexClassicApp() {
 
                         <div className="lg:ms-8">
                             <h4 className="mb-4 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Plan in front program for your needs</h4>
-                            <p className="text-slate-400">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
-                            <ul className="list-none text-slate-400 mt-4">
+                            <p className="text-slate-500">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
+                            <ul className="list-none text-slate-500 mt-4">
                                 <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>  Digital Marketing Solutions for Tomorrow</li>
                                 <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>  Our Talented & Experienced Marketing Agency</li>
                                 <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>  Create your own skin to match your brand</li>
@@ -300,7 +300,7 @@ export default function IndexClassicApp() {
                 <div className="container relative md:mt-24 mt-16">
                     <div className="grid grid-cols-1 pb-8 text-center">
                         <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Key Features</h3>
-                        <p className="text-slate-400 max-w-xl mx-auto">Create, collaborate, and turn your ideas into incredible products with the definitive platform for digital design.</p>
+                        <p className="text-slate-500 max-w-xl mx-auto">Create, collaborate, and turn your ideas into incredible products with the definitive platform for digital design.</p>
                     </div>
 
                    <KeyFeatureTwo/>
@@ -311,7 +311,7 @@ export default function IndexClassicApp() {
                         <h6 className="text-indigo-600 text-base mb-2">Testimonial</h6>
                         <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">What Our Users Say</h3>
 
-                        <p className="text-slate-400 max-w-xl mx-auto">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                        <p className="text-slate-500 max-w-xl mx-auto">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
                     </div>
 
                     <UserFeedBack2 />
