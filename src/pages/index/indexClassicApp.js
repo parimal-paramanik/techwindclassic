@@ -16,7 +16,8 @@ import image7 from '../../assets/images/client/01.jpg';
 import Navbar from '../../component/Navbar/navbar'
 import UserFeedBack2 from '../../component/userFeedBack2';
 // import CookieModal from '../../component/cookieModal';
-import TransparentFooter from '../../component/Footer/transparentFooter';
+// import TransparentFooter from '../../component/Footer/transparentFooter';
+import JobFooter from '../../component/Footer/jobFooter';
 import MobileApp from '../../component/mobileApp';
 import KeyFeatureTwo from '../../component/keyFeatureTwo';
 
@@ -312,7 +313,8 @@ export default function IndexClassicApp() {
                 </div>
                 <MobileApp/>
             </section>
-            <TransparentFooter/>
+            {/* <TransparentFooter/> */}
+            <JobFooter/>
             {/* <CookieModal /> */}
         </>
     )
