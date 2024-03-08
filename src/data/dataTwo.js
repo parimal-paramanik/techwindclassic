@@ -55,7 +55,7 @@ import logo1 from '../assets/images/client/9.jpg';
 import logo2 from '../assets/images/client/10.png';
 import logo3 from '../assets/images/client/11.png';
 import logo4 from '../assets/images/client/12.png';
-import logo5 from '../assets/images/client/13.jpeg';
+import logo5 from '../assets/images/client/13.png';
 
 
 import construction1 from '../assets/images/construction/1.jpg';

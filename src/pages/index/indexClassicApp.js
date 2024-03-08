@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import playstore from '../../assets/images/app/playstore.png';
 import classic02 from '../../assets/images/app/classic02.jpeg';
 import imageP from '../../assets/images/client/01.jpg';
-import avatar from '../../assets/images/avatar.jpg';
+import avatar from '../../assets/images/avatar1.jpeg';
 import notification from '../../assets/images/notification.jpg';
 import ab02 from '../../assets/images/about/ab02.jpg';
 import ab01 from '../../assets/images/about/ab01.jpg';
@@ -70,8 +70,13 @@ export default function IndexClassicApp() {
                                 Please connect with us, we would love to collaborate with you in building your next real world AI solution.</p>
 
                                 <div className="mt-6">
-                                    <Link to="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Follow us on Linkedin</Link>
-                                    <Link to="" className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white m-1 lightbox"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link><span className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Get in Touch</span>
+                                
+                                    <Link to="https://www.linkedin.com/company/prodigal-ai/" 
+                                    target="_blank"
+                                    className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white m-1 lightbox"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link>
+                                    <Link to="/contact">
+                                    <span className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Get in Touch</span>
+                                    </Link>
                                 </div>
                         </div>
 
@@ -129,8 +134,8 @@ export default function IndexClassicApp() {
                     <div className="grid md:grid-cols-5 grid-cols-2 justify-center gap-[30px]  ml-[50px] ">
                         {partnerImage.map((item,index)=>{
                             return(
-                                <div className="mx-auto py-4" key={index}>
-                                    <img src={item} className="h-16" alt="" />
+                                <div className="mx-auto pb-5 " key={index}>
+                                    <img src={item} className="h-12" alt="" />
                                 </div>
                             )
                         })}
@@ -141,7 +146,7 @@ export default function IndexClassicApp() {
                     <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-16 gap-[30px]">
                         <div className="relative">
                             <div className="relative">
-                                <img src={avatar} className="mx-auto md:max-w-xs lg:max-w-sm rounded-lg shadow-md dark:shadow-gray-800" alt="" />
+                                <img src={avatar} className="mx-auto md:max-w-xs lg:max-w-sm rounded-lg shadow-md dark:shadow-gray-800 h-full w-full" alt="" />
 
                                 <div className="absolute top-4 md:end-14 -end-2 text-center">
                                     <Link to="#" data-type="youtube" onClick={() => setOpen(true)} data-id="g34AhP_L-cE"
