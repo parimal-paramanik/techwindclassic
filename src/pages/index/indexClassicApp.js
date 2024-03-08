@@ -50,7 +50,7 @@ export default function IndexClassicApp() {
 
             <Navbar />
 
-            <section className="relative overflow-hidden md:pt-44 pt-36 md:pb-24 pb-16">
+            <section className="relative overflow-hidden md:pt-44 pt-36 md:pb-24 pb-16 bg-gray-200 ">
                 <div className="container relative">
                     <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-8 gap-[30px] relative">
                         <div className="md:me-6 ">
@@ -76,7 +76,7 @@ export default function IndexClassicApp() {
                         </div>
 
                         <div className="relative">
-                            <img src={classic02} className="mx-auto" alt="" />
+                            <img src={classic02} className="mx-auto w-[70%]" alt="" />
                             <div className="overflow-hidden absolute md:h-[500px] h-[400px] md:w-[500px] w-[400px] bg-gradient-to-tl to-indigo-600/20 via-indigo-600/70 from-indigo-600 bottom-1/2 translate-y-1/2 md:start-0 start-1/2 ltr:md:translate-x-0 ltr:-translate-x-1/2 rtl:md:translate-x-0 rtl:translate-x-1/2 -z-1 shadow-md shadow-indigo-600/10 rounded-full"></div>
 
                             <div className="overflow-hidden after:content-[''] after:absolute after:h-10 after:w-10 after:bg-indigo-600/20 after:top-0 after:start-0 after:-z-1 after:rounded-lg after:animate-[spin_10s_linear_infinite]"></div>
