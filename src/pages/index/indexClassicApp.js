@@ -5,11 +5,12 @@ import { Link } from 'react-router-dom';
 // import playstore from '../../assets/images/app/playstore.png';
 import classic02 from '../../assets/images/app/classic02.jpeg';
 import imageP from '../../assets/images/client/01.jpg';
+import imageN from "../../assets/images/client/nish.jpg"
 import avatar from '../../assets/images/avatar1.jpeg';
-import notification from '../../assets/images/notification.jpg';
-import ab02 from '../../assets/images/about/ab02.jpg';
-import ab01 from '../../assets/images/about/ab01.jpg';
-import sales_chart from '../../assets/images/sales-chart.jpg';
+import notification from '../../assets/images/about/notification.jpeg';
+import ab02 from '../../assets/images/about/ab02.jpeg';
+import ab01 from '../../assets/images/about/ab01.jpeg';
+import sales_chart from '../../assets/images/about/sales_chart2.jpeg';
 import classic04 from '../../assets/images/app/classic04.png';
 // import image7 from '../../assets/images/client/01.jpg';
 
@@ -18,7 +19,7 @@ import UserFeedBack2 from '../../component/userFeedBack2';
 // import CookieModal from '../../component/cookieModal';
 // import TransparentFooter from '../../component/Footer/transparentFooter';
 import JobFooter from '../../component/Footer/jobFooter';
-import MobileApp from '../../component/mobileApp';
+// import MobileApp from '../../component/mobileApp';
 import KeyFeatureTwo from '../../component/keyFeatureTwo';
 
 import * as Icon from 'react-feather'
@@ -114,7 +115,7 @@ export default function IndexClassicApp() {
 
                             <div className="absolute flex justify-between items-center bottom-16 md:start-10 -start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-[20] m-3">
                                 <div className="flex items-center">
-                                    <img src={imageP} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
+                                    <img src={sales_chart} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
                                     <div className="flex-1">
                                         <h6 className="text-lg font-semibold">Digital Avatar</h6>
                                         <p className="text-slate-500">Futuristic</p>
@@ -208,13 +209,13 @@ export default function IndexClassicApp() {
                             </div>
                             <div className="overflow-hidden absolute md:h-[500px] h-[400px] md:w-[500px] w-[400px] bg-gradient-to-tl to-indigo-600/20 via-indigo-600/70 from-indigo-600 bottom-1/2 translate-y-1/2 md:start-0 start-1/2 ltr:md:translate-x-0 ltr:-translate-x-1/2 rtl:md:translate-x-0 rtl:translate-x-1/2 -z-1 shadow-md shadow-indigo-600/10 rounded-full"></div>
 
-                            <div className="absolute flex justify-between items-center md:bottom-16 bottom-0 end-5 rounded-lg shadow-md dark:shadow-gray-800 lg:w-72 w-48 m-3">
+                            {/* <div className="absolute flex justify-between items-center md:bottom-16 bottom-0 end-5 rounded-lg shadow-md dark:shadow-gray-800 lg:w-72 w-48 m-3">
                                 <img src={sales_chart} className="rounded-lg shadow dark:shadow-gray-800" alt="" />
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="lg:me-8 order-2 md:order-1">
-                            <h4 className="mb-4 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">If you need help, <br /> we're here for you</h4>
+                            <h4 className="mb-4 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Need a research partner? <br /> we're here for you</h4>
 
                             <div id="accordion-collapseone" data-accordion="collapse" className="mt-6">
                                 {accordionData.slice(0,4).map((item, index) => (
@@ -230,7 +231,7 @@ export default function IndexClassicApp() {
                                         {activeIndex === index && (
                                             <div>
                                                 <div className="p-5">
-                                                    <p className="text-slate-500 dark:text-gray-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                                    <p className="text-slate-500 dark:text-gray-400">{item.content} </p>
                                                 </div>
                                             </div>
                                         )}
@@ -240,7 +241,9 @@ export default function IndexClassicApp() {
                             </div>
 
                             <div className="mt-4">
-                                <Link to="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
+                                <Link to="https://www.linkedin.com/company/prodigal-ai/" 
+                                target='_blank'
+                                className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Let's Connect <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                             </div>
                         </div>
                     </div>
@@ -272,9 +275,9 @@ export default function IndexClassicApp() {
 
                             <div className="absolute flex justify-between items-center bottom-16 md:start-10 -start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-56 m-3">
                                 <div className="flex items-center">
-                                    <img src={imageP} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
+                                    <img src={imageN} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-800 me-3" alt="" />
                                     <div className="flex-1">
-                                        <h6 className="text-lg font-semibold">Abhishek</h6>
+                                        <h6 className="text-lg font-semibold">Nishchal</h6>
                                         <p className="text-slate-500">CEO</p>
                                     </div>
                                 </div>
@@ -282,16 +285,16 @@ export default function IndexClassicApp() {
                         </div>
 
                         <div className="lg:ms-8">
-                            <h4 className="mb-4 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Plan in front program for your needs</h4>
-                            <p className="text-slate-500">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
+                            <h4 className="mb-4 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Social Content Automation via AI</h4>
+                            <p className="text-slate-500">Our Flagship Product "Social AI Automation" allows you to generate viral content for your social media channels. This is a foundation product for the future of social media and content generation. We are proud to be a pioneer of this advancement.</p>
                             <ul className="list-none text-slate-500 mt-4">
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>  Digital Marketing Solutions for Tomorrow</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>  Our Talented & Experienced Marketing Agency</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>  Create your own skin to match your brand</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Viral Script Generation, SEO optimized generations</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Text to Audio Generation, Voice Cloning</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>  Text to Video, Digital Avatars, Scene Generation</li>
                             </ul>
 
                             <div className="mt-4">
-                                <Link to="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
+                                <Link to="https://www.linkedin.com/company/prodigal-ai/" target="_blank" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Follow us for updates<MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                             </div>
                         </div>
                     </div>
@@ -299,8 +302,8 @@ export default function IndexClassicApp() {
 
                 <div className="container relative md:mt-24 mt-16">
                     <div className="grid grid-cols-1 pb-8 text-center">
-                        <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Key Features</h3>
-                        <p className="text-slate-500 max-w-xl mx-auto">Create, collaborate, and turn your ideas into incredible products with the definitive platform for digital design.</p>
+                        <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Prominent Use Cases</h3>
+                        <p className="text-slate-500 max-w-xl mx-auto">Here are some of the prominent use cases we have worked on in the past.</p>
                     </div>
 
                    <KeyFeatureTwo/>
@@ -316,7 +319,7 @@ export default function IndexClassicApp() {
 
                     <UserFeedBack2 />
                 </div>
-                <MobileApp/>
+                {/* <MobileApp/> */}
             </section>
             {/* <TransparentFooter/> */}
             <JobFooter/>

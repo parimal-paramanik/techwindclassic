@@ -128,23 +128,23 @@ import * as Icon from 'react-feather';
 export const accordionData = [
     {
         id: 1,
-        title: 'How does it work ?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        title: 'Gen AI Experts',
+        content: 'Gen AI and LLMs have taken the world by storm. Find out how it can impact scaling of your business'
     },
     {
         id: 2,
-        title: 'Do I need a designer to use Techwind ?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        title: 'Automation',
+        content: 'If you are not automating certain parts of your business, you are loosing on a good chunk of revenue.'
     },
     {
         id: 3,
-        title: 'What do I need to do to start selling ?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        title: 'Edge Deployment',
+        content: 'Not all use cases can afford huge servers for running AI, explore edge device based deployment solutions to cater to resource constraint use cases for your business.'
     },
     {
         id: 4,
-        title: 'What happens when I receive an order ?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        title: 'Techinical Product Management',
+        content: 'Need someone to lead your team through complex technical roadmap of AI products? We got you covered. AI Product Management is one of the most overlooked skills and hurts a lot of companies in the long run. Get a trusted partner in us to accompany you in this journey.'
     },
     {
         id: 5,

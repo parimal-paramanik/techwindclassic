@@ -13,8 +13,8 @@ export default function KeyFeatureTwo(){
                         <Icon.Monitor className="w-5 h-5"></Icon.Monitor>
                     </div>
                     <div className="flex-1 md:order-1 order-2 md:text-end md:me-4 md:ms-0 ms-4">
-                        <h4 className="mb-0 text-lg font-medium">Use On Any Device</h4>
-                        <p className="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+                        <h4 className="mb-0 text-lg font-medium">Custom Story Bot</h4>
+                        <p className="text-slate-400 mt-3">We developed a children story book bot for our clients to give image rich ready to publish books.</p>
                     </div>
                 </div>
 
@@ -24,8 +24,8 @@ export default function KeyFeatureTwo(){
                         <Icon.Feather className="w-5 h-5"></Icon.Feather>
                     </div>
                     <div className="flex-1 md:order-1 order-2 md:text-end md:me-4 md:ms-0 ms-4">
-                        <h4 className="mb-0 text-lg font-medium">Feather Icons</h4>
-                        <p className="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+                        <h4 className="mb-0 text-lg font-medium">Price Recommendation</h4>
+                        <p className="text-slate-400 mt-3">Price Recommendation built with automated competitive price monitoring and AI based price modifications for user goods.</p>
                     </div>
                 </div>
 
@@ -35,8 +35,8 @@ export default function KeyFeatureTwo(){
                         <Icon.Eye className="w-5 h-5"></Icon.Eye>
                     </div>
                     <div className="flex-1 md:order-1 order-2 md:text-end md:me-4 md:ms-0 ms-4">
-                        <h4 className="mb-0 text-lg font-medium">Retina Ready</h4>
-                        <p className="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+                        <h4 className="mb-0 text-lg font-medium">Backtesting Engine</h4>
+                        <p className="text-slate-400 mt-3">Web3 DEX based Automated Trading Backtesting Engine for robust trading strategies.</p>
                     </div>
                 </div>
 
@@ -54,8 +54,8 @@ export default function KeyFeatureTwo(){
                         <Icon.UserCheck className="w-5 h-5"></Icon.UserCheck>
                     </div>
                     <div className="flex-1 ms-4">
-                        <h4 className="mb-0 text-lg font-medium">W3c Valid Code</h4>
-                        <p className="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+                        <h4 className="mb-0 text-lg font-medium">Sales Call Analyzer</h4>
+                        <p className="text-slate-400 mt-3">Analyze Sales/Loans calls for multiple parameters with support for multiple Indian languages.</p>
                     </div>
                 </div>
 
@@ -65,8 +65,8 @@ export default function KeyFeatureTwo(){
                         <Icon.Smartphone className="w-5 h-5"></Icon.Smartphone>
                     </div>
                     <div className="flex-1 ms-4">
-                        <h4 className="mb-0 text-lg font-medium">Fully Responsive</h4>
-                        <p className="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+                        <h4 className="mb-0 text-lg font-medium">Social Content AI</h4>
+                        <p className="text-slate-400 mt-3">Generate Social Media content using AI tools/models and attract the crucial attention of users for your product.</p>
                     </div>
                 </div>
 
@@ -76,8 +76,8 @@ export default function KeyFeatureTwo(){
                         <Icon.Heart className="w-5 h-5"></Icon.Heart>
                     </div>
                     <div className="flex-1 ms-4">
-                        <h4 className="mb-0 text-lg font-medium">Browser Compatibility</h4>
-                        <p className="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+                        <h4 className="mb-0 text-lg font-medium">Travel AI</h4>
+                        <p className="text-slate-400 mt-3">Revolutionalize the experience of Travel Booking with AI recommendations and Gen AI based models for enhancing the Travel Booking Experience</p>
                     </div>
                 </div>
 

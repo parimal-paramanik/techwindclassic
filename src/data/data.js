@@ -1031,21 +1031,21 @@ export const feedback =[
     },
     {
         id:2,
-        description: `We were able to test many innovative AI solutions for our co-working hub with Nish. "`,
+        description: `We were able to test many innovative AI solutions for our co-working hub with Prodigal AI. "`,
         image: client2,
         name: 'Usha',
         role: '91 SpringBoard'
     },
     {
         id:3,
-        description: 'With Nish as our AI consultant, the team was inspired to another level "',
+        description: 'With Prodigal AI as our AI consultant, the team was inspired to another level "',
         image: client3,
         name: 'Nikhil Mishra',
         role: 'ZeeQ'
     },
     {
         id:4,
-        description: '"Working with Nish was like a master class of System Design for scalable products."',
+        description: '"Working with Prodigal AI was like a master class of System Design for scalable products."',
         image: client4,
         name: 'Vineet',
         role: 'AlterCode'
